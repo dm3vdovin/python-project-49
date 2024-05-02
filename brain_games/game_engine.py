@@ -20,8 +20,7 @@ def run_game(game_name):
         (question, answer) = game_name.get_answers()
 
         print(f'Question: {question}')
-        guess = prompt.string('')
-        print(f'Your answer: {guess}')
+        guess = prompt.string(f'Your answer: ')
 
         if (guess != answer):
             print(f'\'{guess}\' {TIP} \'{answer}\'')

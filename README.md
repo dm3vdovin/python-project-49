@@ -10,3 +10,7 @@
 <h3>Brain Calculator Game</h3>
 
 [![asciicast](https://asciinema.org/a/hnlMzISVREJeRStJc7Eo5IasD.svg)](https://asciinema.org/a/hnlMzISVREJeRStJc7Eo5IasD)
+
+<h3>Brain GCD Game</h3>
+
+[![asciicast](https://asciinema.org/a/Ave1BnzADsui7IMrjhn57YVIj.svg)](https://asciinema.org/a/Ave1BnzADsui7IMrjhn57YVIj)
