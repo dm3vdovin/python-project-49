@@ -18,3 +18,7 @@
 <h3>Brain Progression Game</h3>
 
 [![asciicast](https://asciinema.org/a/6hfvaX5LPDcdpeRll04Ttt7IM.svg)](https://asciinema.org/a/6hfvaX5LPDcdpeRll04Ttt7IM)
+
+<h3>Brain Prime Game</h3>
+
+[![asciicast](https://asciinema.org/a/mJkD0TdmfurrYpx3K4uQi31Oa.svg)](https://asciinema.org/a/mJkD0TdmfurrYpx3K4uQi31Oa)
