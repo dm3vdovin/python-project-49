@@ -5,11 +5,11 @@
 
 <h3>Brain Even Game</h3>
 
-[![asciicast](https://asciinema.org/a/27IP28E3Cak5HmjocMuHw3524.svg)](https://asciinema.org/a/27IP28E3Cak5HmjocMuHw3524)
+[![asciicast](https://asciinema.org/a/W07cWcjKxkm8HmbrfQLS5bNAY.svg)](https://asciinema.org/a/W07cWcjKxkm8HmbrfQLS5bNAY)
 
 <h3>Brain Calculator Game</h3>
 
-[![asciicast](https://asciinema.org/a/hnlMzISVREJeRStJc7Eo5IasD.svg)](https://asciinema.org/a/hnlMzISVREJeRStJc7Eo5IasD)
+[![asciicast](https://asciinema.org/a/yFKEA9cdus5WRYseZy0sfSKUV.svg)](https://asciinema.org/a/yFKEA9cdus5WRYseZy0sfSKUV)
 
 <h3>Brain GCD Game</h3>
 

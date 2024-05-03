@@ -4,7 +4,7 @@ from math import gcd
 MIN_VALUE = 1
 MAX_VALUE = 100
 
-RULES = 'Find the greatest common divisor of given numbers'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def get_answers():

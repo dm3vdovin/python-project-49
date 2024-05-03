@@ -1,6 +1,5 @@
 import prompt
 
-
 ROUNDS_COUNT = 3
 TIP = 'is wrong answer ;(. Correct answer was'
 
