@@ -24,4 +24,4 @@ def get_answers():
     else:
         answer = 'no'
 
-    return (question, answer)
+    return (str(question), answer)
