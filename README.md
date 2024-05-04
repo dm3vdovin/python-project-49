@@ -5,16 +5,18 @@
 
 # Brain Games
 
+Brain Games is a set of logic games. The set includes such games as: even numbers, calculator, greatest common divisor, progression, prime numbers"
+
 1. **Brain Even Game** - checking the number is even or not
 2. **Brain Calculator Game** - realizing addition, subtraction and multiplication operations
-3. **Brain GCD Game** - finding the Greatest Common Divider of two numbers
+3. **Brain GCD Game** - finding the Greatest Common Divisor of two numbers
 4. **Brain Progression Game** - identifying the missing number in a progression
 5. **Brain Prime Game** - checking the number is prime or not
 
 ## Requirements
 
-Python v.3.12+
-Poetry
+* Python v.3.12+
+* Poetry
 
 ## Installation
 
