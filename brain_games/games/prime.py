@@ -1,8 +1,5 @@
 from random import randint
 
-MIN_VALUE = 1
-MAX_VALUE = 100
-
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
@@ -17,8 +14,12 @@ def is_prime(number):
     return True
 
 
-def get_answers():
-    question = randint(MIN_VALUE, MAX_VALUE)
+def get_question_answer():
+    min_value = 1
+    max_value = 100
+
+    question = randint(min_value, max_value)
+
     if is_prime(question):
         answer = 'yes'
     else:

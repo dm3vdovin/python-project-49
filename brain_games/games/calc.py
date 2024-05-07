@@ -1,15 +1,14 @@
 from random import randint, choice
 
-MIN_VALUE = 2
-MAX_VALUE = 10
-
 RULES = 'What is the result of the expression?'
 
 
-def get_answers():
-    random_number1 = randint(MIN_VALUE, MAX_VALUE)
-    random_number2 = randint(MIN_VALUE, MAX_VALUE)
+def get_question_answer():
+    min_value = 2
+    max_value = 10
 
+    random_number1 = randint(min_value, max_value)
+    random_number2 = randint(min_value, max_value)
     operation = choice(['+', '-', '*'])
 
     match operation:
