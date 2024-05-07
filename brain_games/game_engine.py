@@ -1,32 +1,25 @@
 import prompt
 
-ROUNDS_COUNT = 3
-TIP = 'is wrong answer ;(. Correct answer was'
-
 
 def run_game(game_name):
-    answer_counter = 0
+    rounds_count = 3
 
     print("Welcome to the Brain Games!")
-
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-
     print(game_name.RULES)
 
-    while (answer_counter != ROUNDS_COUNT):
-
-        (question, answer) = game_name.get_answers()
-
+    for _ in range(rounds_count):
+        (question, answer) = game_name.get_question_answer()
         print(f'Question: {question}')
-        guess = prompt.string('Your answer: ')
+        rate = prompt.string('Your answer: ')
 
-        if (guess != answer):
-            print(f'\'{guess}\' {TIP} \'{answer}\'')
-            print(f'Let\'s try again, {name}!')
-            return False
-        else:
-            print('Correct!')
-            answer_counter += 1
+        if rate != answer:
+            print(f"'{rate}' is wrong answer ;(. Correct answer was '{answer}'")
+            print(f"Let's try again, {name}!")
+            break
 
-    print(f'Congratulations, {name}!')
+        print('Correct!')
+
+    else:
+        print(f'Congratulations, {name}!')
