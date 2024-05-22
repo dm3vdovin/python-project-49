@@ -1,3 +1,4 @@
+import operator
 from random import randint, choice
 
 RULES = 'What is the result of the expression?'
@@ -9,16 +10,14 @@ def get_question_answer():
 
     random_number1 = randint(min_value, max_value)
     random_number2 = randint(min_value, max_value)
-    operation = choice(['+', '-', '*'])
 
-    match operation:
-        case '+':
-            answer = random_number1 + random_number2
-        case '-':
-            answer = random_number1 - random_number2
-        case '*':
-            answer = random_number1 * random_number2
+    addition = ('+', operator.add(random_number1, random_number2))
+    subtraction = ('-', operator.sub(random_number1, random_number2))
+    multiplication = ('*', operator.mul(random_number1, random_number2))
 
-    question = f'{random_number1} {operation} {random_number2}'
+    operations = [addition, subtraction, multiplication]
+    operation = choice(operations)
+    (operand, answer) = operation
+    question = f'{random_number1} {operand} {random_number2}'
 
     return (question, str(answer))

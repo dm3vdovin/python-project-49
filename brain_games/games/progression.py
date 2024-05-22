@@ -4,23 +4,19 @@ RULES = 'What number is missing in the progression?'
 
 
 def get_progression():
-    min_initial_value = 1
-    max_initial_value = 30
-    min_length_value = 5
-    max_length_value = 10
-    min_step_value = 1
-    max_step_value = 10
+    min_initial = 1
+    max_initial = 30
+    min_length = 5
+    max_length = 10
+    min_step = 1
+    max_step = 10
 
-    initial_number = randint(min_initial_value, max_initial_value)
-    length = randint(min_length_value, max_length_value)
-    step = randint(min_step_value, max_step_value)
-    progression = []
+    initial_number = randint(min_initial, max_initial)
+    length = randint(min_length, max_length)
+    step = randint(min_step, max_step)
     final_number = initial_number + (length * step)
 
-    for number in range(initial_number, final_number, step):
-        progression.append(str(number))
-
-    return progression
+    return list(range(initial_number, final_number, step))
 
 
 def get_question_answer():
@@ -28,9 +24,8 @@ def get_question_answer():
 
     progression = get_progression()
     masked_index = randint(0, len(progression) - 1)
-    masked_number = progression[masked_index]
+    answer = progression[masked_index]
     progression[masked_index] = mask
-    progression = ' '.join(progression)
-    question = f'{progression}'
+    question = ' '.join(map(str, progression))
 
-    return (question, masked_number)
+    return (question, str(answer))
